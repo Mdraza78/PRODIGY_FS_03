@@ -1,27 +1,27 @@
-# PRODIGY_FS_01 - Secure User Authentication System
+# PRODIGY_FS_03 - Ratna Supermarket – Local store E-Commerce platform 
 
-This is **Task 01** of the Full Stack Web Development Internship at **Prodigy Infotech**.
+Task 03 of the Full Stack Web Development Internship at **Prodigy Infotech**
 
 ## 🔐 Task Overview
 
-Develop a **secure user authentication system** using the MERN stack (MongoDB, Express.js, React, Node.js).
+Ratna Supermarket is a local online grocery platform designed to provide users with a seamless and secure shopping experience. The platform allows customers to browse products, manage their shopping cart, and place orders—all within a user-friendly interface
 
 ### ✅ Key Requirements from Prodigy Infotech:
-- Allow users to **register** and **log in** securely.
-- Restrict access to protected routes unless the user is authenticated.
-- Use standard mechanisms like **password hashing**, **JWT**, and **role-based access** (optional).
-
+- Create an e-commerce website for a local store in your area.
+- The platform should feature:
+    - Product listings with images, descriptions, and prices
+    - Shopping cart functionality
+      
 ## 🚀 **Features Implemented**  
 
 | Feature                    | Description                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
-| 🔐 **User Registration**   | New users can create an account                                             |
+| 🛒 **Product Browsing**    | Browse, search, and filter grocery items                                    |
 | 🔑 **Login Page**          | Existing users can securely log in                                          |
-| 📄 **Dashboard Page**      | Protected route; accessible only after login                                |
-| 🧂 **Password Encryption** | Implemented using **Bcrypt**                                                |
-| 🔒 **Route Protection**    | Secured using **JWT token authentication**                                  |
-| 🚪 **Logout Functionality**| Users can securely log out from the dashboard                               |
-| ✅ **Responsive UI**       | Clean and minimal design, works across all devices                          |
+| 🛍️ **Cart Management**     | Add, remove, and adjust quantities of products in the cart                  |
+| 🔐 **User Authentication** | Secure registration, login, and logout using JWT and password hashing       |
+| 📄 **Protected Dashboard** | Access to user dashboard and purchase product only after login              |
+| 💸 **Order Management**    | Place and view order details                                                |
 
 
 ## 🛠️ Tech Stack Used
@@ -39,14 +39,14 @@ Develop a **secure user authentication system** using the MERN stack (MongoDB, E
 
 ## 📁 Folder Structure
 
-<img width="218" alt="{B0CD3267-467A-4FC6-9F66-CA61B95BCFDE}" src="https://github.com/user-attachments/assets/e7a055b2-7107-4378-af98-b3dc9c9712d7" />
+![image](https://github.com/user-attachments/assets/4550f2c5-5344-43d4-89d8-8a354560d21a)
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 ```markdown
-git clone https://github.com/Mdraza78/PRODIGY_FS_01.git
-cd PRODIGY_FS_01
+git clone https://github.com/Mdraza78/PRODIGY_FS_03.git
+cd PRODIGY_FS_03
 ```
 ### 2. Backend Setup
 ```markdown
