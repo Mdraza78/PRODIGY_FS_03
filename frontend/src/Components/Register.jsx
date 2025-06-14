@@ -51,6 +51,7 @@ const Register = () => {
       )}
 
       <form className="auth-form" onSubmit={handleSubmit}>
+        <center><h2 class="logo">Ratna Supermarket</h2></center>
         <h2>Create Account</h2>
         <input
           type="text"

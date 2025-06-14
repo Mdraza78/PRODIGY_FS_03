@@ -34,6 +34,7 @@ const Login = () => {
   <div className="auth-container">
     {error && <div className="popup error">{error}</div>}
     <form className="auth-form" onSubmit={handleSubmit}>
+      <center><h2 class="logo">Ratna Supermarket</h2></center>
       <h2>Login</h2>
       <input 
         type="email" 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +20,11 @@ body, html {
   padding: 1rem;
 }
 
+.auth-form center .logo{
+font-family: "Edu VIC WA NT Hand", cursive;
+font-weight: 300;
+}
+
 .auth-form {
   background-color: white;
   padding: 2rem 2.5rem;
@@ -31,6 +38,7 @@ body, html {
   margin-bottom: 1.5rem;
   color: black;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 .auth-form input {
